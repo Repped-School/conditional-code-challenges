@@ -13,6 +13,16 @@
 
 function checkNumber(number) {
   // Write your code here
+  if (number > 0) {
+    return "Positive number"
+  }
+  if (number < 0) {
+    return "Negative number"
+  }
+  if (number === 0) {
+    return "Zero"
+  }
+
 }
 
 // Code Challenge: If/Else Statement
